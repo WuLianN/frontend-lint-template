@@ -1,0 +1,13 @@
+{
+    "extends": [
+        "eslint-config-airbnb-base"
+    ],
+    "rules": {
+        "semi": ["error", "never"]
+    },
+    "env": { 
+        "browser": true,
+        "es6": true
+    },
+    "parserOptions": { "ecmaVersion": 2020 }
+}
