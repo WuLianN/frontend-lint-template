@@ -6,7 +6,7 @@
   "scripts": {
     "prepare": "husky install",
     "lint:eslint": "eslint src/**/*.vue --fix",
-    "lint:prettier": "prettier --write",
+    "lint:prettier": "prettier src --write",
     "lint:stylelint": "stylelint \"src/**/*.{css,vue}\" --fix"
   },
   "lint-staged": {
