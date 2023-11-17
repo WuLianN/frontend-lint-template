@@ -11,9 +11,9 @@
   },
   "lint-staged": {
     "*.{js,vue}": [
-      "prettier --write",
       "eslint --fix",
-      "stylelint --fix"
+      "stylelint --fix",
+      "prettier --write"
     ],
     "*.css": [
       "stylelint --fix"
